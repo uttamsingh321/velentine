@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Will you be my Valentine?</h1>
+
+    <div class="buttons">
+        <button class="no-button" onclick="handleNo()">No</button>
+        <button class="yes-button" onclick="handleYes()">Yes</button>
+    </div>
+
+    <div class="gif_container">
+        <img src="assets/main.gif" alt="Cute GIF">
+    </div>
+</div>
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+    emailjs.init("C2GNLIm90HPvi6_7b");
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
